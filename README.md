@@ -8,10 +8,12 @@ main.py for a dynamic tictactoe game ref. SentDex
 
 #Errors
 - Prints to gameboards after first input
-- Falls out after rematch if other keys than "y" or "n" has been pressed (get a return statement)
+- Disable 1 as valid input value, (usless).
+- Disable 0 as a game size value, (continues as size is choosen before it trows an error).
+- Stops if else than y or n has been pressed after rematch input has shown. (Should get a return statement "Ops, wrong key again!") 
 
 
 #Improvments
 - Player Name
-- Add column name
+- Add column name (a, b, ++)
 - Add design 
